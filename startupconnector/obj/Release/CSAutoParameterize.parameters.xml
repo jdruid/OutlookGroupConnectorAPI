@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="StartupCardDBContext-Web.config Connection String" description="StartupCardDBContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=StartupConnector;AttachDBFilename=|DataDirectory|\StartupConnector.mdf;Integrated Security=SSPI;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\jodrew\\documents\\visual\ studio\ 2015\\Projects\\startupconnector\\startupconnector\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='StartupCardDBContext']/@connectionString" />
+  </parameter>
+</parameters>
